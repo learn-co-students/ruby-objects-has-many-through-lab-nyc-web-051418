@@ -7,7 +7,7 @@ class Genre
   end
 
   def new_song(song_name, artist_name)
-    Song.new(artist_name, song_name, self)
+    Song.new(song_name, artist_name, self)
   end
 
   def songs
@@ -18,7 +18,6 @@ class Genre
 
   def artists
     genre_songs = songs
-    binding.pry
     genre_songs.map do |song|
       song.artist
     end
