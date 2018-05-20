@@ -11,8 +11,7 @@ class Appointment
     @doctor = doctor
     @date = date
 
-
-  ALL << self
+    ALL << self
   end
 
   def self.all

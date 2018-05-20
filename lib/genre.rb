@@ -9,6 +9,7 @@ class Genre
 
   def initialize(name)
     @name = name
+    
     ALL << self
   end
 
