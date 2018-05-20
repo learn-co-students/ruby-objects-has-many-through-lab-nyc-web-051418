@@ -8,6 +8,7 @@ class Doctor
 
   def initialize(name)
   @name = name
+
   ALL << self
   end
 
